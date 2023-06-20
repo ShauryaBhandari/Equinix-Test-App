@@ -39,11 +39,11 @@ const App = () => {
 
   return (
     <div className="container py-5">
-      {" "}
       <div className="row">
         <div className="col-md-6 mb-4">
           <div className="card">
             <div className="card-body">
+              <h1>Dummy Data Service Provider Search</h1>
               <Search
                 providers={providers}
                 setFilteredProviders={setFilteredProviders}
@@ -58,6 +58,8 @@ const App = () => {
           <div className="card">
             <div className="card-body">
               <WeatherSearch />
+            </div>
+            <div className="card-body">
               <form onSubmit={handleSubmit}>
                 <div className="mb-3 mt-3">
                   <h1>Sample Form using React Hooks</h1>
